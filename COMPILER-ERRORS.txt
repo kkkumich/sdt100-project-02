@@ -1,0 +1,19 @@
+MissingBracket.java.diagnostic.txt
+C:\Users\user\Documents\Codex\2026-11-04\yfg\outputs\SDT100-Past-Assignments\project2\error_examples\MissingBracket.java:1: error: reached end of file while parsing
+class MissingBracket { public static void main(String[] args) { System.out.println("hello"); }
+                                                                                              ^
+1 error
+
+MissingSemicolon.java.diagnostic.txt
+C:\Users\user\Documents\Codex\2026-11-04\yfg\outputs\SDT100-Past-Assignments\project2\error_examples\MissingSemicolon.java:1: error: ';' expected
+class MissingSemicolon { public static void main(String[] args) { System.out.println("hello") } }
+                                                                                             ^
+1 error
+
+MisspelledName.java.diagnostic.txt
+C:\Users\user\Documents\Codex\2026-11-04\yfg\outputs\SDT100-Past-Assignments\project2\error_examples\MisspelledName.java:1: error: cannot find symbol
+class MisspelledName { public static void main(String[] args) { int count=1; System.out.println(coutn); } }
+                                                                                                ^
+  symbol:   variable coutn
+  location: class MisspelledName
+1 error

@@ -1,0 +1,41 @@
+===== part1_syntax.Main.txt =====
+COMMAND: java -cp build part1_syntax.Main
+INPUT (demo data):
+Demo
+
+OUTPUT:
+sum=22 difference=12 product=85 quotient=3 remainder=2
+Decimal division: 3.4
+After increment/decrement: 18, 4
+Cast double to int: 12
+initial=I, learning=true
+JAVA PROGRAMMING
+length=16, substring=Java
+What is your name? Hello, Demo!
+
+
+===== part2_dialog.Main.txt =====
+COMMAND: java -cp build part2_dialog.Main
+INPUT (demo data):
+Demo
+Student
+20
+Kyiv
+Ukraine
+Engineering
+1
+12.5
+yes
+reading
+
+OUTPUT:
+First name: Surname: Age (0-120): City: Country: Study subject: Study year (1-8): Hours of study per week: Do you like Java? (yes/no): Favourite hobby: 
+SUMMARY
+Demo Student (D), age 20
+Kyiv, Ukraine
+Engineering, year 1
+Study hours: 12,5
+Likes Java: true
+Hobby: reading
+You might enjoy a programming book.
+Position of 'a' in hobby (-1 means absent): 2
